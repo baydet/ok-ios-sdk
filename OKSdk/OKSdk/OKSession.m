@@ -4,9 +4,9 @@
 #import "NSString+OKUtils.h"
 #import "OKAuthorizeController.h"
 
-NSString * const kLoginURL = @"http://www.odnoklassniki.ru/oauth/authorize";
-NSString * const kAccessTokenURL = @"http://api.odnoklassniki.ru/oauth/token.do";
-NSString * const kAPIBaseURL = @"http://api.odnoklassniki.ru/api/";
+NSString * const kLoginURL = @"https://www.odnoklassniki.ru/oauth/authorize";
+NSString * const kAccessTokenURL = @"https://api.odnoklassniki.ru/oauth/token.do";
+NSString * const kAPIBaseURL = @"https://api.odnoklassniki.ru/api/";
 
 static NSString * const OKAppAuthBaseURL = @"okauth://authorize";
 
