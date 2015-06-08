@@ -210,7 +210,7 @@
 }
 
 - (NSURL *)makeURLWithAppId:(NSString *)appId attachments:(NSString *)attachments signature:(NSString *)signature returnUrl:(NSString *)returnUrl {
-    NSString *url = [NSString stringWithFormat:@"http://connect.ok.ru/dk?st.cmd=WidgetMediatopicPost&"
+    NSString *url = [NSString stringWithFormat:@"https://connect.ok.ru/dk?st.cmd=WidgetMediatopicPost&"
                                                        "st.app=%@&st.attachment=%@&st.signature=%@&st.return=%@&st.popup=on",
                                                appId, [attachments URLEncodedString], signature, [returnUrl URLEncodedString]];
 
