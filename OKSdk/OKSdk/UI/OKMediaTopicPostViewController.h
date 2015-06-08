@@ -6,4 +6,5 @@
 
 + (instancetype)postViewControllerWithAttachments:(NSDictionary *)attachments;
 - (void)presentInViewController:(UIViewController *)viewController;
+- (void)dismiss;
 @end
